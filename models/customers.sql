@@ -47,5 +47,6 @@ final as (
     left join customer_orders using (customer_id)
 
 )
+-- modified
 
 select * from final
