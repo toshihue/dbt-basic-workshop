@@ -24,4 +24,4 @@ select
 
 from customer_order_dates
 
-where first_order_date = most_recent_order_date
+where first_order_date > most_recent_order_date
